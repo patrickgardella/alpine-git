@@ -2,6 +2,8 @@
 
 Multi-architecture build of Alpine base image with git installed
 
+This image expects the volume to be mounted to `/git` where the operations will take place. (i.e. `/git` is the WORKDIR)
+
 ## Setup
 
 Configure Buildx environment:
