@@ -1,3 +1,4 @@
 FROM alpine:3.12
 RUN apk add --no-cache git
+WORKDIR /git
 ENTRYPOINT ["git"]
